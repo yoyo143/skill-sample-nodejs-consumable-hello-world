@@ -1,5 +1,5 @@
 - name: Webhook
-  uses: zzzze/webhook-trigger@master
+  uses: zzzze/dockerhub-webhook@master
   with:
     data: "{\"event_type\":\"build\"}"
     webhook_url: ${{ secrets.WEBHOOK_URL }}
