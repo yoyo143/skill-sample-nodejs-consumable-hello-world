@@ -1,7 +1,7 @@
 FROM node:10.15-alpine
 
 
-ARG APP_ROOT='/courses'
+ARG APP_ROOT='/'
 
 RUN mkdir -p $APP_ROOT
 WORKDIR $APP_ROOT
